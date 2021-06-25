@@ -1,0 +1,4 @@
+G:/Alan/C++/pybind_tutotrial/build/CMakeFiles/ALL_BUILD.dir
+G:/Alan/C++/pybind_tutotrial/build/CMakeFiles/ZERO_CHECK.dir
+G:/Alan/C++/pybind_tutotrial/build/Hello_world/CMakeFiles/func.dir
+G:/Alan/C++/pybind_tutotrial/build/Hello_world/CMakeFiles/ALL_BUILD.dir
