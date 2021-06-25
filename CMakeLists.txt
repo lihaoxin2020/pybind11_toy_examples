@@ -2,4 +2,4 @@ cmake_minimum_required(VERSION 3.0.0)
 project(CharCat VERSION 0.1.0)
 
 add_subdirectory(Hello_world)
-add_subdirectory(Bindings_for_)
+add_subdirectory(Bindings_for_a_custom_type)

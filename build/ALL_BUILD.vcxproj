@@ -169,6 +169,12 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Bindings_for_a_custom_type\Human.vcxproj">
+      <Project>{C1BBEC18-AD07-39E8-B11A-939503CB9F2E}</Project>
+      <Name>Human</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Hello_world\func.vcxproj">
       <Project>{4B8F4C00-7B56-3F11-AE66-652B693CA6EB}</Project>
       <Name>func</Name>

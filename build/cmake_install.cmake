@@ -35,6 +35,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("G:/Alan/C++/pybind_tutotrial/build/Hello_world/cmake_install.cmake")
+  include("G:/Alan/C++/pybind_tutotrial/build/Bindings_for_a_custom_type/cmake_install.cmake")
 
 endif()
 

@@ -209,6 +209,12 @@ CharCat_BINARY_DIR:STATIC=G:/Alan/C++/pybind_tutotrial/build
 //Value Computed by CMake
 CharCat_SOURCE_DIR:STATIC=G:/Alan/C++/pybind_tutotrial
 
+//Value Computed by CMake
+Human_BINARY_DIR:STATIC=G:/Alan/C++/pybind_tutotrial/build/Bindings_for_a_custom_type
+
+//Value Computed by CMake
+Human_SOURCE_DIR:STATIC=G:/Alan/C++/pybind_tutotrial/Bindings_for_a_custom_type
+
 //Python version to use for compiling modules
 PYBIND11_PYTHON_VERSION:STRING=
 
@@ -347,7 +353,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MT
 CMAKE_MT-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=2
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=3
 //Platform information initialized
 CMAKE_PLATFORM_INFO_INITIALIZED:INTERNAL=1
 //noop for ranlib
