@@ -169,9 +169,33 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
+    <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Enumerations_and_internal_types\Enum.vcxproj">
+      <Project>{41D3E036-8FFE-3633-967A-B8B09D3F35D5}</Project>
+      <Name>Enum</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
     <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Bindings_for_a_custom_type\Human.vcxproj">
       <Project>{C1BBEC18-AD07-39E8-B11A-939503CB9F2E}</Project>
       <Name>Human</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Overload_methods\Overload.vcxproj">
+      <Project>{3714C15F-9064-355C-8164-0152659621C4}</Project>
+      <Name>Overload</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Inheritance\Pet.vcxproj">
+      <Project>{7374BDCD-084C-330D-BB1B-BF102A22D7DD}</Project>
+      <Name>Pet</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="G:\Alan\C++\pybind_tutotrial\build\Automatic_downcasting\PolyPet.vcxproj">
+      <Project>{AED11751-0931-3F06-9416-3C8FAC74DB56}</Project>
+      <Name>PolyPet</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>

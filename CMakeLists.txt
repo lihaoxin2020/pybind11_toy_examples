@@ -1,5 +1,9 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(CharCat VERSION 0.1.0)
-
+ 
 add_subdirectory(Hello_world)
 add_subdirectory(Bindings_for_a_custom_type)
+add_subdirectory(Inheritance)
+add_subdirectory(Automatic_downcasting)
+add_subdirectory(Overload_methods)
+add_subdirectory(Enumerations_and_internal_types)

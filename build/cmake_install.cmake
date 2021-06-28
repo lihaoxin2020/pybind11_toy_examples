@@ -36,6 +36,10 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("G:/Alan/C++/pybind_tutotrial/build/Hello_world/cmake_install.cmake")
   include("G:/Alan/C++/pybind_tutotrial/build/Bindings_for_a_custom_type/cmake_install.cmake")
+  include("G:/Alan/C++/pybind_tutotrial/build/Inheritance/cmake_install.cmake")
+  include("G:/Alan/C++/pybind_tutotrial/build/Automatic_downcasting/cmake_install.cmake")
+  include("G:/Alan/C++/pybind_tutotrial/build/Overload_methods/cmake_install.cmake")
+  include("G:/Alan/C++/pybind_tutotrial/build/Enumerations_and_internal_types/cmake_install.cmake")
 
 endif()
 

@@ -1,13 +1,22 @@
 #include "People.h"
 
-People::People(std::string name) {
-    People::setName(name);
+People::People(std::string &name, int age) {
+    setName(name);
+    setAge(age);
 }
 
 void People::setName(std::string name) {
-    People::m_name = name;
+    m_name = name;
 }
 
-const std::string People::getName() {
-    return People::m_name;
+std::string People::getName() {
+    return m_name;
+}
+
+void People::setAge(int age) {
+    m_age = age;
+}
+
+int People::getAge() {
+    return m_age;
 }
